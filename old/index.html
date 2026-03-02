@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TTG — Sales Flow</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">TTG <span>Sales Flow</span></div>
+    <p class="subtitle">Click on any message to copy it instantly to your clipboard</p>
+  </header>
+
+  <main id="phases-container"></main>
+
+  <!-- Phase 4.1 Options Modal -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <h3>📚 Phase 4.1 — El Course</h3>
+      <p class="modal-sub">Choisir l'option à ajouter à la fin du message</p>
+      <div class="base-preview" id="base-preview"></div>
+      <div class="modal-options">
+        <button class="opt-btn" id="opt1-btn">
+          <span class="opt-label">Option 1</span>
+          <span class="opt-text">3andek fekra 3ala discord kifech ykhdem?</span>
+        </button>
+        <button class="opt-btn" id="opt2-btn">
+          <span class="opt-label">Option 2</span>
+          <span class="opt-text">chnia rayek ? investissement walla le ?</span>
+        </button>
+      </div>
+      <button id="modal-close">Annuler</button>
+    </div>
+  </div>
+
+  <div id="toast">✅ Copié dans le clipboard !</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

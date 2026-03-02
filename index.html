@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TTG — Login</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="login-page">
+
+  <div class="login-box">
+    <img src="TTG.png" alt="TTG Logo" class="login-logo" onerror="this.style.display='none'"/>
+    <h1>TTG Sales Flow</h1>
+    <p class="login-sub">Enter your passkey to access the dashboard</p>
+
+    <form id="login-form" autocomplete="off">
+      <div class="passkey-input-wrap">
+        <input
+          type="password"
+          id="passkey-input"
+          placeholder="••••••••"
+          autocomplete="off"
+          spellcheck="false"
+          required
+        />
+        <button type="button" class="toggle-vis" id="toggle-vis" aria-label="Show passkey">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </button>
+      </div>
+      <button type="submit" class="login-btn">Enter →</button>
+      <p class="login-error" id="login-error"></p>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

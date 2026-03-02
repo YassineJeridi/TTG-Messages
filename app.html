@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TTG — Sales Flow</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="app-page">
+
+  <header>
+    <div class="header-left">
+      <img src="TTG.png" alt="TTG" class="header-logo" onerror="this.style.display='none'"/>
+      <div class="header-title">
+        <span class="brand">TTG Sales Flow</span>
+        <span class="tagline">Tunisian Top G · CRM</span>
+      </div>
+    </div>
+    <button class="logout-btn" id="logout-btn">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+        <polyline points="16 17 21 12 16 7"/>
+        <line x1="21" y1="12" x2="9" y2="12"/>
+      </svg>
+      <span>Logout</span>
+    </button>
+  </header>
+
+  <div class="progress-strip" id="progress-strip"></div>
+  <main id="phases-container"></main>
+
+  <!-- Phase 4.1 Modal -->
+  <div id="modal-overlay" class="hidden">
+    <div id="modal">
+      <h3>📚 Phase 4.1 — El Course</h3>
+      <p class="modal-sub">Choisir l'option à ajouter à la fin du message</p>
+      <div class="base-preview" id="base-preview"></div>
+      <div class="modal-options">
+        <button class="opt-btn" id="opt1-btn">
+          <span class="opt-label">Option 1</span>
+          <span class="opt-text">3andek fekra 3ala discord kifech ykhdem?</span>
+        </button>
+        <button class="opt-btn" id="opt2-btn">
+          <span class="opt-label">Option 2</span>
+          <span class="opt-text">chnia rayek ? investissement walla le ?</span>
+        </button>
+      </div>
+      <button id="modal-close">Annuler</button>
+    </div>
+  </div>
+
+  <div id="toast">✅ Copié dans le clipboard !</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
