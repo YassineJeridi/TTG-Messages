@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Phase 1 — El Qualify",
       "tag": "Qualify",
-      "message": "👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbeit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousle bih ?"
+      "message": "👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbeit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousel bih ?"
     },
     {
       "id": "2",
@@ -50,33 +50,6 @@
       "title": "Phase 7 — El Close",
       "tag": "Close",
       "message": "Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"
-    }
-  ],
-  "objections": [
-    {
-      "id": "OBJ1",
-      "title": "Objection — Too Much",
-      "tag": "Price 💰",
-      "hasPrice": true,
-      "base_before": "fi trading ne7kiw 3ala 3bed ta3mel fi double mta3 soum el course hedeka fi meme pas 2 months w hedeka soum el promo , '",
-      "base_after": "' 9oddem el wealth eli t7eb ta3melha testsamma chwaya wala le ? 📈",
-      "prices": [
-        "499 DT",
-        "699 DT",
-        "1090 DT"
-      ]
-    },
-    {
-      "id": "OBJ2",
-      "title": "Objection — Not Trusted",
-      "tag": "Trust 🛡️",
-      "message": "that's so good elli je fi mo5ek souel heda w kol wa7ed 9bal ma y7ot flousou y7eb ykoun sur. El trading mech madhmoun bel flous barcha 3bed bda w khasrou flous mech 3la khater trading sa3ib, 3la khater 9a3din yet3allmou b ghelt min youtube and fake courses so lezem tal9a trusted recourse w tkoun fi el sekka el s7i7a w tri9 s7i7 — tal9a kol chay 3la tunisiantopgs.com — w enti moujoud lenna 3ala heda walle ? 🎯"
-    },
-    {
-      "id": "OBJ3",
-      "title": "Objection — Is It Free?",
-      "tag": "Free ❓",
-      "message": "el free ynajjem ykoun mawjoud fi ay blassa. A7na na3tiw exclusive information w features elli mch bech tal9ahom fi 7atta paid courses."
     }
   ]
 }

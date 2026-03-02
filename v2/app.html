@@ -27,14 +27,10 @@
   </header>
 
   <div class="progress-strip" id="progress-strip"></div>
+  <main id="phases-container"></main>
 
-  <main>
-    <div id="phases-container"></div>
-    <div id="objections-container"></div>
-  </main>
-
-  <!-- Options Modal (Phase 4.1) -->
-  <div id="options-modal" class="modal-overlay hidden">
+  <!-- Phase 4.1 Modal -->
+  <div id="modal-overlay" class="hidden">
     <div id="modal">
       <h3>📚 Phase 4.1 — El Course</h3>
       <p class="modal-sub">Choisir l'option à ajouter à la fin du message</p>
@@ -49,17 +45,7 @@
           <span class="opt-text">chnia rayek ? investissement walla le ?</span>
         </button>
       </div>
-      <button class="modal-close-btn">Annuler</button>
-    </div>
-  </div>
-
-  <!-- Price Modal (OBJ1) -->
-  <div id="price-modal" class="modal-overlay hidden">
-    <div id="modal">
-      <h3>💰 Objection — Too Much</h3>
-      <p class="modal-sub">Choisir le prix du plan pour compléter le message</p>
-      <div class="modal-options" id="price-buttons"></div>
-      <button class="modal-close-btn">Annuler</button>
+      <button id="modal-close">Annuler</button>
     </div>
   </div>
 
