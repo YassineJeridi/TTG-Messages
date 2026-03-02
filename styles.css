@@ -801,3 +801,9 @@ main {
 
 /* ── Spacing ── */
 #phase3-container, #qa-container, #objections-container { margin-top: 28px; }
+
+/* ── Phase 3 Modal Label Colors ── */
+.p3-basic    { color: #94a3b8 !important; }
+.p3-advanced { color: #818cf8 !important; }
+.p3-ultimate { color: #f59e0b !important; }
+.p3-opt-btn:hover { border-color: #818cf8 !important; background: rgba(129,140,248,0.06) !important; }

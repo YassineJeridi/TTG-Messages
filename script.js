@@ -54,40 +54,37 @@ function renderPhases() {
   });
 }
 
-/* ── Phase 3 Group ── */
+/* ── Phase 3 — Single Card → Modal ── */
 function renderPhase3() {
   const container = document.getElementById('phase3-container');
   container.innerHTML = '';
-  const heading = document.createElement('div');
-  heading.className = 'section-heading phase3-heading';
-  heading.innerHTML = '<span>PHASE 3 — Choose a Plan</span>';
-  container.appendChild(heading);
-  const grid = document.createElement('div');
-  grid.className = 'phase3-grid';
-  phase3Data.forEach((variant, i) => {
-    const card = document.createElement('div');
-    card.className = 'phase-card phase3-card';
-    card.id = `p3-card-${i}`;
-    card.innerHTML = `
-      <div class="card-header">
-        <span class="phase-num p3-num">PHASE 3</span>
-        <span class="phase-title">${variant.label}</span>
-        <span class="tag-badge p3-tag">${variant.tag}</span>
-        <span class="copy-hint">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="9" y="9" width="13" height="13" rx="2"/>
-            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-          </svg>
-          <span>Copy</span>
-        </span>
+
+  const card = document.createElement('div');
+  card.className = 'phase-card has-options';
+  card.id = 'p3-card-0';
+  card.innerHTML = `
+    <div class="card-header">
+      <span class="phase-num p3-num">PHASE 3</span>
+      <span class="phase-title">Phase 3 — El Pitch</span>
+      <span class="tag-badge p3-tag">Pitch</span>
+      <span class="copy-hint">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2"/>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+        <span>Choose Plan</span>
+      </span>
+    </div>
+    <div class="card-body">
+      <p class="message-text" style="color:var(--muted); font-style:italic;">Click to choose a plan and copy the message 👇</p>
+      <div class="options-notice">
+        <span class="opt-chip">🥉 Basic — 499DT</span>
+        <span class="opt-chip">🥈 Advanced — 699DT</span>
+        <span class="opt-chip">👑 Ultimate — 1099DT</span>
       </div>
-      <div class="card-body">
-        <p class="message-text">${escapeHtml(variant.message)}</p>
-      </div>`;
-    card.addEventListener('click', () => copyToClipboard(variant.message, i, 'p3'));
-    grid.appendChild(card);
-  });
-  container.appendChild(grid);
+    </div>`;
+  card.addEventListener('click', () => openModal('phase3-modal'));
+  container.appendChild(card);
 
   // Remaining phases after Phase 3
   phasesData.slice(2).forEach((p, i) => {
@@ -380,6 +377,15 @@ function escapeHtml(str) {
 
 document.addEventListener('DOMContentLoaded', () => {
   loadMessages();
+
+  // Phase 3 plan buttons
+  document.querySelectorAll('.p3-opt-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const i = parseInt(btn.dataset.index);
+      closeAllModals();
+      copyToClipboard(phase3Data[i].message, 0, 'p3');
+    });
+  });
   document.getElementById('opt1-btn').addEventListener('click', () => selectOption(1));
   document.getElementById('opt2-btn').addEventListener('click', () => selectOption(2));
   document.getElementById('logout-btn').addEventListener('click', () => {
