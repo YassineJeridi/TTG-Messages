@@ -13,6 +13,12 @@
       "message": "that's normal kima barcha 3bed fi tounes w barcha menhom El trading kenelhom tri9 bech ya3emlou extra income w famma elli walelou el main income w Enti kifech sme3t 3al trading, social media wala 7kewlek 3lih ? 💡"
     },
     {
+      "id": "3",
+      "title": "Phase 3 — El Pitch",
+      "tag": "Pitch",
+      "message": "that's good a7na 3anna 3 Plans 3la 7seb elli 9oltli, el plan elli ynesbek houa el Advanced. Fih el cours complet de A à Z, Live Signals , w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay soule 3andek . course heda Ken b 1497DT w taw fi el promo b 699DT kahow and keep in mind heda  investissement fi rou7ek 9bal ma ykoun course . 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
+    },
+    {
       "id": "4.1",
       "title": "Phase 4.1 — El Course",
       "tag": "Course",
@@ -44,51 +50,6 @@
       "title": "Phase 7 — El Close",
       "tag": "Close",
       "message": "Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"
-    }
-  ],
-  "phase3variants": [
-    {
-      "label": "Basic 🥉",
-      "tag": "499 DT",
-      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Basic. Fih el cours complet de A à Z, w m3ah Discord VIP lifetime win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 599DT w taw fi el promo b 499DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 📚"
-    },
-    {
-      "label": "Advanced 🥈",
-      "tag": "699 DT",
-      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Advanced. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
-    },
-    {
-      "label": "Ultimate 👑",
-      "tag": "1099 DT",
-      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Ultimate. Fih el cours complet de A à Z, Live Signals kol youm, Discord VIP lifetime, TTG Free Book, w fou9 heda kol chay bech ykoun 3andek Private 1-on-1 Session ma3 Zendyeni 🏆 — win bech yfasserlek barcha 7ejet. Course heda ken b 2994DT w taw fi el promo b 1099DT —  keep in mind heda mch just investissement fi rou7ek, heda el package elli ma tal9ouch fi 7atta place o5ra. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
-    }
-  ],
-  "quickAnswers": [
-    {
-      "id": "QA1",
-      "title": "What Courses Do We Have?",
-      "tag": "Courses 📚",
-      "hasToggleX": true,
-      "hasChooseY": false,
-      "base": "3anna 3 courses 👇\n📈 Trading — kifech ta9ra el marché w ta3mel profit réel\n🎬 Video Editing — montage professionnel de A à Z\n🎨 Graphic Design — design w branding mn zero",
-      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
-      "ending": "\n\nenti chnia t7eb tet3allem ?"
-    },
-    {
-      "id": "QA2",
-      "title": "What Are All Your Plans?",
-      "tag": "Plans 👑",
-      "hasToggleX": true,
-      "hasChooseY": true,
-      "base": "3anna 3 plans 👇\n🥉 Basic — Cours complet + Discord VIP lifetime — 499DT\n🥈 Advanced — Basic + Live Signals kol youm — 699DT\n👑 Ultimate — Advanced + TTG Book + Private Session ma3 Zendyeni 🏆 — 1099DT",
-      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
-      "discordLine": "\n\nw bien sure El Discord lifetime mawjoud fi plans el kol ",
-      "yOptions": [
-        "so which one do you prefer ?",
-        "so enehou akther we7ed yse3dek ?",
-        "zid e7kili akther chnia el goal mte3ek el 9oddem fi trading bech najjem nans7ek enehou el 5ir ?",
-        "none"
-      ]
     }
   ],
   "objections": [
