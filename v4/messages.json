@@ -1,0 +1,121 @@
+{
+  "phases": [
+    {
+      "id": "1",
+      "title": "Phase 1 — El Qualify",
+      "tag": "Qualify",
+      "message": "👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbeit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousle bih ?"
+    },
+    {
+      "id": "2",
+      "title": "Phase 2 — El Pain",
+      "tag": "Pain",
+      "message": "that's normal kima barcha 3bed fi tounes w barcha menhom El trading kenelhom tri9 bech ya3emlou extra income w famma elli walelou el main income w Enti kifech sme3t 3al trading, social media wala 7kewlek 3lih ? 💡"
+    },
+    {
+      "id": "4.1",
+      "title": "Phase 4.1 — El Course",
+      "tag": "Course",
+      "hasOptions": true,
+      "base": "📚 El cours mte3na mawjoud 3la plateforme mte3na \"tunisiantopgs.com\"  akther mn 78 vidéo, 155 quiz, PDFs w notes 3la kol partie, w el kol mfassar bel tounsi bech ma yib9ach 3andek 7aja moch mfahma. w en cas our ma fhemtech 7aja tkalemna direct",
+      "option1": "\n\n3andek fekra 3ala discord kifech ykhdem?",
+      "option2": "\n\nchnia rayek ? investissement walla le ?"
+    },
+    {
+      "id": "4.2",
+      "title": "Phase 4.2 — El Discord",
+      "tag": "Discord",
+      "message": "el students elli 5dhew el cours mte3na, akther menhouma ma kenech 3andhom aya base fil trading 9bal. Ba3d chhar wa7ed bdew ychoufu résultats réelles. El Discord houa elli far9 mech bch tal9a videos barka, bch tal9a nass active kol youm, signals, w tal9a Chkoun yjewbek 3ala el asela elli 3andek fi ay wa9et. w fou9 heda el discord bech yab9alek life time .chnia rayek ? investissement walla le ? 🎯"
+    },
+    {
+      "id": "5",
+      "title": "Phase 5 — El Payment",
+      "tag": "Payment",
+      "message": "💳 les méthodes de paiement el kol disponibles: virement bancaire, D17, Crypto , Poste . chnia yse3dek ?"
+    },
+    {
+      "id": "6",
+      "title": "Phase 6 — El Access",
+      "tag": "Access",
+      "message": "ba3d ma tikhalas ab3ethli el recu mta3 el paiment w ena na3tik el access lil discord w el course  Tnajem tebda 7atta min el youm ✅"
+    },
+    {
+      "id": "7",
+      "title": "Phase 7 — El Close",
+      "tag": "Close",
+      "message": "Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"
+    }
+  ],
+  "phase3variants": [
+    {
+      "label": "Basic 🥉",
+      "tag": "499 DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Basic. Fih el cours complet de A à Z, w m3ah Discord VIP lifetime win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 599DT w taw fi el promo b 499DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 📚"
+    },
+    {
+      "label": "Advanced 🥈",
+      "tag": "699 DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Advanced. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
+    },
+    {
+      "label": "Ultimate 👑",
+      "tag": "1099 DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Ultimate. Fih el cours complet de A à Z, Live Signals kol youm, Discord VIP lifetime, TTG Free Book, w fou9 heda kol chay bech ykoun 3andek Private 1-on-1 Session ma3 Zendyeni 🏆 — win bech yfasserlek barcha 7ejet. Course heda ken b 2994DT w taw fi el promo b 1099DT —  keep in mind heda mch just investissement fi rou7ek, heda el package elli ma tal9ouch fi 7atta place o5ra. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
+    }
+  ],
+  "quickAnswers": [
+    {
+      "id": "QA1",
+      "title": "What Courses Do We Have?",
+      "tag": "Courses 📚",
+      "hasToggleX": true,
+      "hasChooseY": false,
+      "base": "3anna 3 courses 👇\n📈 Trading — kifech ta9ra el marché w ta3mel profit réel\n🎬 Video Editing — montage professionnel de A à Z\n🎨 Graphic Design — design w branding mn zero",
+      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
+      "ending": "\n\nenti chnia t7eb tet3allem ?"
+    },
+    {
+      "id": "QA2",
+      "title": "What Are All Your Plans?",
+      "tag": "Plans 👑",
+      "hasToggleX": true,
+      "hasChooseY": true,
+      "base": "3anna 3 plans 👇\n🥉 Basic — Cours complet + Discord VIP lifetime — 499DT\n🥈 Advanced — Basic + Live Signals kol youm — 699DT\n👑 Ultimate — Advanced + TTG Book + Private Session ma3 Zendyeni 🏆 — 1099DT",
+      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
+      "discordLine": "\n\nw bien sure El Discord lifetime mawjoud fi plans el kol ",
+      "yOptions": [
+        "so which one do you prefer ?",
+        "so enehou akther we7ed yse3dek ?",
+        "zid e7kili akther chnia el goal mte3ek el 9oddem fi trading bech najjem nans7ek enehou el 5ir ?",
+        "none"
+      ]
+    }
+  ],
+  "objections": [
+    {
+      "id": "OBJ1",
+      "title": "Objection — Too Much",
+      "tag": "Price 💰",
+      "hasPrice": true,
+      "base_before": "fi trading ne7kiw 3ala 3bed ta3mel fi double mta3 soum el course hedeka fi meme pas 2 months w hedeka soum el promo , '",
+      "base_after": "' 9oddem el wealth eli t7eb ta3melha testsamma chwaya wala le ? 📈",
+      "prices": [
+        "499 DT",
+        "699 DT",
+        "1090 DT"
+      ]
+    },
+    {
+      "id": "OBJ2",
+      "title": "Objection — Not Trusted",
+      "tag": "Trust 🛡️",
+      "message": "that's so good elli je fi mo5ek souel heda w kol wa7ed 9bal ma y7ot flousou y7eb ykoun sur. El trading mech madhmoun bel flous barcha 3bed bda w khasrou flous mech 3la khater trading sa3ib, 3la khater 9a3din yet3allmou b ghelt min youtube and fake courses so lezem tal9a trusted recourse w tkoun fi el sekka el s7i7a w tri9 s7i7 — tal9a kol chay 3la tunisiantopgs.com — w enti moujoud lenna 3ala heda walle ? 🎯"
+    },
+    {
+      "id": "OBJ3",
+      "title": "Objection — Is It Free?",
+      "tag": "Free ❓",
+      "message": "el free ynajjem ykoun mawjoud fi ay blassa. A7na na3tiw exclusive information w features elli mch bech tal9ahom fi 7atta paid courses."
+    }
+  ]
+}
