@@ -1,50 +1,238 @@
 {
   "phases": [
-    {"id":"1","title":"Phase 1 — El Qualify","tag":"Qualify","message":"👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbeit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousle bih ?"},
-    {"id":"2","title":"Phase 2 — El Pain","tag":"Pain","message":"that's great kima barcha 3bed fi tounes y7ebbou y9addou fi 7yethom w barcha menhom El trading kenelhom tri9 bech ya3emlou extra income w famma elli walelou el main income w Enti kifech sme3t 3al trading, social media wala 7kewlek 3lih ? 💡"},
-    {"id":"PRE3A","title":"Pre-Phase 3 — Intent","tag":"Intent 🎯","hasPrefix":true,"prefixes":["that's good —","that's great —","that's cool —"],"base":"enti chnia el goal mte3ek f trading, just t7eb te5ou fekra wala newi t9addem fih w ykounlek an income?"},
-    {"id":"PRE3B","title":"Pre-Phase 3 — Commitment","tag":"Time ⏰","hasPrefix":true,"prefixes":["that's good —","that's great —","that's cool —"],"base":"w wa9tek kifech ? tnajjem t5asses wa9et bech tet3allem 3ala 9a3da w tefehem el marché walla just ki tal9a wa9et ?"},
-    {"id":"3","title":"Phase 3 — El Pitch","tag":"Pitch 🔥","isVariants":true},
-    {"id":"4.1","title":"Phase 4.1 — El Course","tag":"Course 📚","hasOptions":true,"base":"📚 El cours mte3na mawjoud 3la plateforme mte3na \"tunisiantopgs.com\"  akther mn 78 vidéo, 155 quiz, PDFs w notes 3la kol partie, w el kol mfassar bel tounsi bech ma yib9ach 3andek 7aja moch mfahma. w en cas our ma fhemtech 7aja tkalemna direct","option1":"\n\n3andek fekra 3ala discord kifech ykhdem?","option2":"\n\nchnia rayek ? investissement walla le ?"},
-    {"id":"4.2","title":"Phase 4.2 — El Discord","tag":"Discord 🎮","message":"el students elli 5dhew el cours mte3na, akther menhouma ma kenech 3andhom aya base fil trading 9bal. Ba3d chhar wa7ed bdew ychoufu résultats réelles. El Discord houa elli far9 mech bch tal9a videos barka, bch tal9a nass active kol youm, signals, w tal9a Chkoun yjewbek 3ala el asela elli 3andek fi ay wa9et. w fou9 heda el discord bech yab9alek life time .chnia rayek ? investissement walla le ? 🎯"},
-    {"id":"5","title":"Phase 5 — El Payment","tag":"Payment 💳","message":"💳 les méthodes de paiement el kol disponibles: virement bancaire, D17, Crypto , Poste . chnia yse3dek ?"},
-    {"id":"6","title":"Phase 6 — El Access","tag":"Access ✅","hasSuffix":true,"base":"ba3d ma tikhalas ab3ethli el recu mta3 el paiment w ena na3tik el access lil discord w el course w Tnajem tebda 7atta min el youm","suffix":" Please ensure all information is correct before submitting.","ending":" ✅"},
-    {"id":"7","title":"Phase 7 — El Close","tag":"Close ⏳","message":"Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"}
+    {
+      "id": "1",
+      "title": "Phase 1 — El Qualify",
+      "tag": "Qualify",
+      "message": "👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousel bih ?"
+    },
+    {
+      "id": "2",
+      "title": "Phase 2 — El Pain",
+      "tag": "Pain",
+      "message": "that's great kima barcha 3bed fi tounes y7ebbou y9addou fi 7yethom w barcha menhom El trading kenelhom tri9 bech ya3emlou extra income w famma elli walelou el main income w Enti kifech sme3t 3al trading, social media wala 7kewlek 3lih ? 💡"
+    },
+    {
+      "id": "PRE3A",
+      "title": "Pre-Phase 3 — Intent",
+      "tag": "Intent 🎯",
+      "hasPrefix": true,
+      "prefixes": ["that's good —", "that's great —", "that's cool —"],
+      "base": "enti chnia el goal mte3ek f trading, just t7eb te5ou fekra wala newi t9addem fih w ykounlek an income?"
+    },
+    {
+      "id": "PRE3B",
+      "title": "Pre-Phase 3 — Commitment",
+      "tag": "Time ⏰",
+      "hasPrefix": true,
+      "prefixes": ["that's good —", "that's great —", "that's cool —"],
+      "base": "w wa9tek kifech ? tnajjem t5asses wa9et bech tet3allem 3ala 9a3da w tefehem el marché walla just ki tal9a wa9et ?"
+    },
+    {
+      "id": "3",
+      "title": "Phase 3 — El Pitch",
+      "tag": "Pitch 🔥",
+      "isVariants": true
+    },
+    {
+      "id": "4.1",
+      "title": "Phase 4.1 — El Course",
+      "tag": "Course 📚",
+      "hasOptions": true,
+      "base": "📚 El cours mte3na mawjoud 3la plateforme mte3na \"tunisiantopgs.com\"  akther mn 78 vidéo, 155 quiz, PDFs w notes 3la kol partie, w el kol mfassar bel tounsi bech ma yib9ach 3andek 7aja moch mfahma. w en cas our ma fhemtech 7aja tkalemna direct",
+      "option1": "\n\n3andek fekra 3ala discord kifech ykhdem?",
+      "option2": "\n\nchnia rayek ? investissement walla le ?"
+    },
+    {
+      "id": "4.2",
+      "title": "Phase 4.2 — El Discord",
+      "tag": "Discord 🎮",
+      "message": "el students elli 5dhew el cours mte3na, akther menhouma ma kenech 3andhom aya base fil trading 9bal. Ba3d chhar wa7ed bdew ychoufu résultats réelles. El Discord houa elli far9 mech bch tal9a videos barka, bch tal9a nass active kol youm, signals, w tal9a Chkoun yjewbek 3ala el asela elli 3andek fi ay wa9et. w fou9 heda el discord bech yab9alek life time .chnia rayek ? investissement walla le ? 🎯"
+    },
+    {
+      "id": "5",
+      "title": "Phase 5 — El Payment",
+      "tag": "Payment 💳",
+      "message": "💳 les méthodes de paiement el kol disponibles: virement bancaire, D17, Crypto , Poste . chnia yse3dek ?"
+    },
+    {
+      "id": "6",
+      "title": "Phase 6 — El Access",
+      "tag": "Access ✅",
+      "hasSuffix": true,
+      "base": "ba3d ma tikhalas ab3ethli el recu mta3 el paiment w ena na3tik el access lil discord w el course w Tnajem tebda 7atta min el youm",
+      "suffix": " Please ensure all information is correct before submitting.",
+      "ending": " ✅"
+    },
+    {
+      "id": "7",
+      "title": "Phase 7 — El Close",
+      "tag": "Close ⏳",
+      "message": "Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"
+    },
+    {
+      "id": "8",
+      "title": "Phase 8 — Account Activation",
+      "tag": "Activation ✅",
+      "message": "your account is fully activated , and we did give you 2 more courses graphic design and video editing as a gift 🎁"
+    }
   ],
+
   "phase3variants": [
-    {"label":"Beginner Package 🥉","tag":"499DT","message":"that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Beginner Package. Fih el cours complet de A à Z, w m3ah Discord VIP lifetime win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 599DT w taw fi el promo b 499DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 📚"},
-    {"label":"Top G Package 🥈","tag":"699DT","message":"that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Top G Package. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"},
-    {"label":"Ultimate Package 👑","tag":"1099DT","message":"that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Ultimate Package. Fih el cours complet de A à Z, Live Signals kol youm, Discord VIP lifetime, TTG Free Book, w fou9 heda kol chay bech ykoun 3andek Private 1-on-1 Session ma3 Zendyeni 🏆 — win bech yfasserlek barcha 7ejet. Course heda ken b 2994DT w taw fi el promo b 1099DT —  keep in mind heda mch just investissement fi rou7ek, heda el package elli ma tal9ouch fi 7atta place o5ra. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"},
-    {"label":"Advanced + Upsell 🔥","tag":"699DT+","message":"that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Top G Package. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. So we go with this wala t7eb 7aja more premium we can go with the Ultimate Package or the Beginner Package more affordable so what do you see ? 🔥"}
+    {
+      "label": "Beginner Package 🥉",
+      "tag": "499DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Beginner Package. Fih el cours complet de A à Z, w m3ah Discord VIP lifetime win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 599DT w taw fi el promo b 499DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 📚"
+    },
+    {
+      "label": "Top G Package 🥈",
+      "tag": "699DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Top G Package. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
+    },
+    {
+      "label": "Ultimate Package 👑",
+      "tag": "1099DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Ultimate Package. Fih el cours complet de A à Z, Live Signals kol youm, Discord VIP lifetime, TTG Free Book, w fou9 heda kol chay bech ykoun 3andek Private 1-on-1 Session ma3 Zendyeni 🏆 — win bech yfasserlek barcha 7ejet. Course heda ken b 2994DT w taw fi el promo b 1099DT —  keep in mind heda mch just investissement fi rou7ek, heda el package elli ma tal9ouch fi 7atta place o5ra. 3andek ay so2el 3al contenu mte3 el cours wella 3al Discord kifech ykhdem? 🔥"
+    },
+    {
+      "label": "Advanced + Upsell 🔥",
+      "tag": "699DT+",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Top G Package. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT —  keep in mind heda investissement fi rou7ek 9bal ma ykoun course. So we go with this wala t7eb 7aja more premium we can go with the Ultimate Package or the Beginner Package more affordable so what do you see ? 🔥"
+    }
   ],
   "quickAnswers": [
-    {"id":"QA1","title":"What Courses Do We Have?","tag":"Courses 📚","hasToggleX":true,"hasChooseY":false,"base":"3anna 3 courses 👇\n📈 Trading — kifech ta9ra el marché w ta3mel profit réel\n🎬 Video Editing — montage professionnel de A à Z\n🎨 Graphic Design — design w branding mn zero","optionalX":"\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁","ending":"\n\nenti chnia t7eb tet3allem ?"},
-    {"id":"QA2","title":"What Are All Your Plans?","tag":"Plans 👑","hasToggleX":true,"hasChooseY":true,"base":"3anna 3 plans selon chnia les objective mte3ek w win t7eb toussal. 🥉 El Beginner Package y3tik access lel cours complet de A à Z pendant 1 mois m3a Discord VIP lifetime b 499DT. 🥈 El Top G Package fih nafs el Beginner Package pendant 3 mois w zid 3lih Live Signals kol youm bch tal9a positions directement mn el experts b 699DT. 👑 W el Ultimate Package houa el top — fih kol chay pendant 6 mois w fou9 heda TTG Free Book w Private 1-on-1 Session ma3 Zendyeni 🏆 directement b 1099DT. W bien sure el Discord lifetime mawjoud fi plans el kol — ya3ni el support dima moujoud 7atta ki tkammel el cours.","optionalX":"\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁","yOptions":["so which one do you prefer ?","so enehou akther we7ed yse3dek ?","zid e7kili akther chnia el goal mte3ek el 9oddem fi trading bech najjem nans7ek enehou el 5ir ?","none"]},
-    {"id":"QA3","title":"Post-Subscription Gift 🎁","tag":"Gift 🎁","message":"your account is fully activated , and we did give you 2 more courses graphic design and video editing as a gift 🎁"}
+    {
+      "id": "QA1",
+      "title": "What Courses Do We Have?",
+      "tag": "Courses 📚",
+      "hasToggleX": true,
+      "hasChooseY": false,
+      "base": "3anna 3 courses 👇\n📈 Trading — kifech ta9ra el marché w ta3mel profit réel\n🎬 Video Editing — montage professionnel de A à Z\n🎨 Graphic Design — design w branding mn zero",
+      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
+      "ending": "\n\nenti chnia t7eb tet3allem ?"
+    },
+    {
+      "id": "QA2",
+      "title": "What Are All Your Plans?",
+      "tag": "Plans 👑",
+      "hasToggleX": true,
+      "hasChooseY": true,
+      "base": "3anna 3 plans selon chnia les objective mte3ek w win t7eb toussal. 🥉 El Beginner Package y3tik access lel cours complet de A à Z pendant 1 mois m3a Discord VIP lifetime b 499DT. 🥈 El Top G Package fih nafs el Beginner Package pendant 3 mois w zid 3lih Live Signals kol youm bch tal9a positions directement mn el experts b 699DT. 👑 W el Ultimate Package houa el top — fih kol chay pendant 6 mois w fou9 heda TTG Free Book w Private 1-on-1 Session ma3 Zendyeni 🏆 directement b 1099DT. W bien sure el Discord lifetime mawjoud fi plans el kol — ya3ni el support dima moujoud 7atta ki tkammel el cours.",
+      "optionalX": "\n\nw fou9 heda kol chay ki te5ou trading course bech ykoun m3ah exclusive free access lil cours mte3 Video Editing w Graphic Design 🎁",
+      "yOptions": [
+        "so which one do you prefer ?",
+        "so enehou akther we7ed yse3dek ?",
+        "zid e7kili akther chnia el goal mte3ek el 9oddem fi trading bech najjem nans7ek enehou el 5ir ?",
+        "none"
+      ]
+    },
+    {
+      "id": "QA3",
+      "title": "Post-Subscription Gift 🎁",
+      "tag": "Gift 🎁",
+      "message": "your account is fully activated , and we did give you 2 more courses graphic design and video editing as a gift 🎁"
+    }
   ],
   "infoMessages": [
-    {"id":"INFO1","title":"What Is Trading?","tag":"Trading 📈","message":"Trading houa ennek tbi3 w techri assets kima dhaab bitcoin🪙  tchouf el prix wein bch imchi w ta3mel profit minha. Mithal: chrit Bitcoin b 1000$, tla3 l 1200$, ki tbi3 terbe7t 200$.w heda lkol mch bel zhar, lezmek des methodes w ta3ref el market w kifech ta9ra el chart"},
-    {"id":"INFO2","title":"How Much Capital to Start?","tag":"Capital 💰","message":"Tnajjem tebda tetradi 7atta b 20$ — feyda tab9a dima tkabber f el capital mte3ek b chwaya b chwaya w t5alli el rebe7 akther min el 5sara. Ama mch heda elli t5amem fih ,taw lezmek tefhem el marche b el gde. 3bed terbe7 min trading 5ater ya3erfou yetradiw mch 3andhom barcha flous. net3allem se3a w el capital yji wa7dou b3ed"},
-    {"id":"INFO3","title":"Brokers & Platforms","tag":"Brokers 🔗","message":"Les brokers w platforms elli na3almou bihom fi trading — lil Forex na3almou b XM 📊 (MT4 / MT5), platform professionnelle w stable. W lil Crypto na3almou b Binance w KuCoin 🪙, les deux akther platforms fiabilité w volume. W exculsive offer 3anna ken tsajjel 3la Binance wella KuCoin b link mte3na, bch tal9a discount mn 10% l 20% 3la les frais mte3ek directement w barcha benefits o5rin . t7eb nab3ethlek link? 🔗"}
+    {
+      "id": "INFO1",
+      "title": "What Is Trading?",
+      "tag": "Trading 📈",
+      "message": "Trading houa ennek tbi3 w techri assets kima dhaab bitcoin🪙  tchouf el prix wein bch imchi w ta3mel profit minha. Mithal: chrit Bitcoin b 1000$, tla3 l 1200$, ki tbi3 terbe7t 200$.w heda lkol mch bel zhar, lezmek des methodes w ta3ref el market w kifech ta9ra el chart"
+    },
+    {
+      "id": "INFO2",
+      "title": "How Much Capital to Start?",
+      "tag": "Capital 💰",
+      "message": "Tnajjem tebda tetradi 7atta b 20$ — feyda tab9a dima tkabber f el capital mte3ek b chwaya b chwaya w t5alli el rebe7 akther min el 5sara. Ama mch heda elli t5amem fih ,taw lezmek tefhem el marche b el gde. 3bed terbe7 min trading 5ater ya3erfou yetradiw mch 3andhom barcha flous. net3allem se3a w el capital yji wa7dou b3ed"
+    },
+    {
+      "id": "INFO3",
+      "title": "Brokers & Platforms",
+      "tag": "Brokers 🔗",
+      "message": "Les brokers w platforms elli na3almou bihom fi trading — lil Forex na3almou b XM 📊 (MT4 / MT5), platform professionnelle w stable. W lil Crypto na3almou b Binance w KuCoin 🪙, les deux akther platforms fiabilité w volume. W exculsive offer 3anna ken tsajjel 3la Binance wella KuCoin b link mte3na, bch tal9a discount mn 10% l 20% 3la les frais mte3ek directement w barcha benefits o5rin . t7eb nab3ethlek link? 🔗"
+    }
   ],
   "payments": [
-    {"id":"PAY1","title":"D17 Payment","tag":"D17 📱","message":"Behi parfait — voici le numéro mte3 el paiment via D17 👇\n📱 92 861 655\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"id":"PAY2","title":"Poste Payment","tag":"Poste 🏦","message":"Behi parfait — voici les coordonnées mte3 el paiment via Poste 👇\n🏦 Num Wallet : 5359403636261754\n👤 Nom : Yassine Jeridi\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"id":"PAY3","title":"Crypto Payment","tag":"Crypto 🪙","message":"Behi parfait — voici les coordonnées mte3 el paiment via Crypto 👇\n🪙 USDT — TRC20\n📋 TBb1VGz4QAfiomcx4RbL4TK433D5PqFnKY\nBellehi ta2akked tib3eth 3la network TRC20 w el adress elli 3tithelek . Ba3d ma tikhalas ab3ethli screenshot mte3 el transaction w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"id":"PAY4","title":"PayPal Payment","tag":"PayPal 💳","message":"Behi parfait — voici le lien mte3 el paiment via PayPal 👇\n💳  paypal.me/CourseTTG\nBa3d ma tikhalas ab3ethli el reçu mta3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"id":"PAY5","title":"Stripe Payment","tag":"Stripe 💎","isStripe":true}
+    {
+      "id": "PAY1",
+      "title": "D17 Payment",
+      "tag": "D17 📱",
+      "message": "Behi parfait — voici le numéro mte3 el paiment via D17 👇\n📱 92 861 655\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "id": "PAY2",
+      "title": "Poste Payment",
+      "tag": "Poste 🏦",
+      "message": "Behi parfait — voici les coordonnées mte3 el paiment via Poste 👇\n🏦 Num Wallet : 5359403636261754\n👤 Nom : Yassine Jeridi\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "id": "PAY3",
+      "title": "Crypto Payment",
+      "tag": "Crypto 🪙",
+      "message": "Behi parfait — voici les coordonnées mte3 el paiment via Crypto 👇\n🪙 USDT — TRC20\n📋 TBb1VGz4QAfiomcx4RbL4TK433D5PqFnKY\nBellehi ta2akked tib3eth 3la network TRC20 w el adress elli 3tithelek . Ba3d ma tikhalas ab3ethli screenshot mte3 el transaction w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "id": "PAY4",
+      "title": "PayPal Payment",
+      "tag": "PayPal 💳",
+      "message": "Behi parfait — voici le lien mte3 el paiment via PayPal 👇\n💳  paypal.me/CourseTTG\nBa3d ma tikhalas ab3ethli el reçu mta3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "id": "PAY5",
+      "title": "Stripe Payment",
+      "tag": "Stripe 💎",
+      "isStripe": true
+    }
   ],
   "stripeVariants": [
-    {"label":"Beginner Package 🥉","tag":"$179 — 1 Mois","message":"Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n🥉 Beginner Package — 1 Mois — $179\n🔗 https://buy.stripe.com/aFa8wPdU93vF6praVQ73G09\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"label":"Top G Package 🥈","tag":"$249.99 — 3 Mois","message":"Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n🥈 Top G Package — 3 Mois — $249.99\n🔗 https://buy.stripe.com/4gM9AT6rH6HRaFHbZU73G08\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"},
-    {"label":"Ultimate Package 👑","tag":"$399.99 — 6 Mois","message":"Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n👑 Ultimate Package — 6 Mois — $399.99\n🔗 https://buy.stripe.com/14AdR95nD7LVcNPgga73G07\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"}
+    {
+      "label": "Beginner Package 🥉",
+      "tag": "$179 — 1 Mois",
+      "message": "Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n🥉 Beginner Package — 1 Mois — $179\n🔗 https://buy.stripe.com/aFa8wPdU93vF6praVQ73G09\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "label": "Top G Package 🥈",
+      "tag": "$249.99 — 3 Mois",
+      "message": "Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n🥈 Top G Package — 3 Mois — $249.99\n🔗 https://buy.stripe.com/4gM9AT6rH6HRaFHbZU73G08\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    },
+    {
+      "label": "Ultimate Package 👑",
+      "tag": "$399.99 — 6 Mois",
+      "message": "Behi parfait — voici le lien mte3 el paiment via Stripe 👇\n👑 Ultimate Package — 6 Mois — $399.99\n🔗 https://buy.stripe.com/14AdR95nD7LVcNPgga73G07\nBa3d ma tikhalas ab3ethli el reçu mte3 el paiment w ena na3tik el access lil course w el Discord direct. ✅"
+    }
   ],
   "objections": [
-    {"id":"OBJ1","title":"Objection — Too Much","tag":"Price 💰","hasPrice":true,"base_before":"fi trading ne7kiw 3ala 3bed ta3mel fi double mta3 soum el course hedeka fi meme pas 2 months w hedeka soum el promo , '","base_after":"' 9oddem el wealth eli t7eb ta3melha testsamma chwaya wala le ? 📈","prices":["499 DT","699 DT","1090 DT"]},
-    {"id":"OBJ2","title":"Objection — Not Trusted","tag":"Trust 🛡️","hasPrefix":true,"prefixes":["that's so good elli je fi mo5ek souel heda w"],"base":"kol wa7ed 9bal ma y7ot flousou y7eb ykoun sur. El trading mech madhmoun bel flous barcha 3bed bda w khasrou flous mech 3la khater trading sa3ib, 3la khater 9a3din yet3allmou b ghelt min youtube and fake courses so lezem tal9a trusted recourse w tkoun fi el sekka el s7i7a w tri9 s7i7 — tal9a kol chay 3la tunisiantopgs.com — w enti moujoud lenna 3ala heda walle ? 🎯"},
-    {"id":"OBJ3","title":"Objection — Is It Free?","tag":"Free ❓","message":"el free ynajjem ykoun mawjoud fi ay blassa. A7na na3tiw exclusive courses w features elli mch bech tal9ahom fi 7atta paid courses."}
+    {
+      "id": "OBJ1",
+      "title": "Objection — Too Much",
+      "tag": "Price 💰",
+      "hasPrice": true,
+      "base_before": "fi trading ne7kiw 3ala 3bed ta3mel fi double mta3 soum el course hedeka fi meme pas 2 months w hedeka soum el promo , '",
+      "base_after": "' 9oddem el wealth eli t7eb ta3melha testsamma chwaya wala le ? 📈",
+      "prices": ["499 DT", "699 DT", "1090 DT"]
+    },
+    {
+      "id": "OBJ2",
+      "title": "Objection — Not Trusted",
+      "tag": "Trust 🛡️",
+      "hasPrefix": true,
+      "prefixes": ["that's so good elli je fi mo5ek souel heda w"],
+      "base": "kol wa7ed 9bal ma y7ot flousou y7eb ykoun sur. El trading mech madhmoun bel flous barcha 3bed bda w khasrou flous mech 3la khater trading sa3ib, 3la khater 9a3din yet3allmou b ghelt min youtube and fake courses so lezem tal9a trusted recourse w tkoun fi el sekka el s7i7a w tri9 s7i7 — tal9a kol chay 3la tunisiantopgs.com — w enti moujoud lenna 3ala heda walle ? 🎯"
+    },
+    {
+      "id": "OBJ3",
+      "title": "Objection — Is It Free?",
+      "tag": "Free ❓",
+      "message": "el free ynajjem ykoun mawjoud fi ay blassa. A7na na3tiw exclusive courses w features elli mch bech tal9ahom fi 7atta paid courses."
+    }
   ],
   "resubscription": [
-    {"id":"RESUB","title":"Resubscription — 50% OFF","tag":"Resub 🔄","message":"Madem enti deja konet student m3ana w ta3ref el qualité mte3 el cours tnajjem ta3mel resubscription b 50% OFF directement w te5ou access lil course . Chnia el payment method elli tse3dek? 👑"}
+    {
+      "id": "RESUB",
+      "title": "Resubscription — 50% OFF",
+      "tag": "Resub 🔄",
+      "message": "Madem enti deja konet student m3ana w ta3ref el qualité mte3 el cours tnajjem ta3mel resubscription b 50% OFF directement w te5ou access lil course . Chnia el payment method elli tse3dek? 👑"
+    }
   ]
 }
