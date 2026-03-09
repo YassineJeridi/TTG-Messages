@@ -29,6 +29,24 @@
       "base": "w wa9tek kifech ? tnajjem t5asses wa9et bech tet3allem 3ala 9a3da w tefehem el marché walla just ki tal9a wa9et ?"
     },
     {
+      "id": "PRE3C",
+      "title": "Pre-Phase 3 — Packages Intro",
+      "tag": "Packages 📦",
+      "message": "that perfect enti 3andek fekra 3ala les packages elli 3anna ?"
+    },
+    {
+      "id": "PRE3D",
+      "title": "Pre-Phase 3 — Plans Overview",
+      "tag": "Plans 📋",
+      "message": "3anna 3 plans. 🥉 El Beginner Package pendant 1 mois. 🥈 El Top G Package pendant 3 mois W el Ultimate Package houa el top — fih kol chay pendant 6 mois w Private 1-on-1 Session ma3 Zendyeni 🏆 directement W zid e7kili akther chnia el goal mte3ek w 9adech el budget elli t7eb tinvesti bih f el formation bech najjem n3awnek te5tar enehou el 5ir lik ?"
+    },
+    {
+      "id": "PRE3E",
+      "title": "Pre-Phase 3 — Suggestion",
+      "tag": "Suggestion 💡",
+      "isSuggestionVariants": true
+    },
+    {
       "id": "3",
       "title": "Phase 3 — El Pitch",
       "tag": "Pitch 🔥",
@@ -233,6 +251,23 @@
       "title": "Resubscription — 50% OFF",
       "tag": "Resub 🔄",
       "message": "Madem enti deja konet student m3ana w ta3ref el qualité mte3 el cours tnajjem ta3mel resubscription b 50% OFF directement w te5ou access lil course . Chnia el payment method elli tse3dek? 👑"
+    }
+  ],
+  "suggestionVariants": [
+    {
+      "label": "Beginner Package 🥉",
+      "tag": "499DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el beginner Package. Fih el cours complet de A à Z  w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 599DT w taw fi el promo b 499DT 3andek fekra kifech el course w chnia bech tal9a fih ? 🔥"
+    },
+    {
+      "label": "Top G Package 🥈",
+      "tag": "699DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Advanced. Fih el cours complet de A à Z, Live Signals kol youm, w Discord VIP win bech tal9a students actifs w professors elli bech yjewbouk 3ala ay souel 3andek. Course heda ken b 1497DT w taw fi el promo b 699DT 3andek fekra kifech el course w chnia bech tal9a fih ?🔥"
+    },
+    {
+      "label": "Ultimate Package 👑",
+      "tag": "1099DT",
+      "message": "that's good — 3la 7seb elli 9oltli, el plan elli ynesbek houa el Ultimate Package. Fih el cours complet de A à Z, Live Signals kol youm, Discord VIP lifetime, TTG Free Book, w fou9 heda kol chay bech ykoun 3andek Private 1-on-1 Session ma3 Zendyeni 🏆 — win bech yfasserlek barcha 7ejet. Course heda ken b 2994DT w taw fi el promo b 1099DT —   heda el package elli ma tal9ouch fi 7atta place o5ra. 3andek fekra kifech el course w chnia bech tal9a fih ?🔥"
     }
   ]
 }
