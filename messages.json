@@ -2,69 +2,69 @@
   "phases": [
     {
       "id": "1",
-      "title": "Phase 1 — El Qualify",
+      "title": "El Qualify",
       "tag": "Qualify",
       "message": "👋 Marhbe! 9bel ma nfassroulek kol chay, 7abbit na3ref chwaya 3lik enti w chnia el objective mte3ek f trading w win t7eb tousel bih ?"
     },
     {
       "id": "2",
-      "title": "Phase 2 — El Pain",
+      "title": "El Pain",
       "tag": "Pain",
       "message": "that's great kima barcha 3bed fi tounes y7ebbou y9addou fi 7yethom w barcha menhom El trading kenelhom tri9 bech ya3emlou extra income w famma elli walelou el main income w Enti kifech sme3t 3al trading, social media wala 7kewlek 3lih ? 💡"
     },
     {
-      "id": "PRE3A",
-      "title": "Pre-Phase 3 — Intent",
+      "id": "3",
+      "title": "Intent",
       "tag": "Intent 🎯",
       "hasPrefix": true,
       "prefixes": ["that's good —", "that's great —", "that's cool —"],
       "base": "enti chnia el goal mte3ek f trading, just t7eb te5ou fekra wala newi t9addem fih w ykounlek an income?"
     },
     {
-      "id": "PRE3B",
-      "title": "Pre-Phase 3 — Commitment",
+      "id": "4",
+      "title": "Commitment",
       "tag": "Time ⏰",
       "isPre3bVariants": true
     },
     {
-      "id": "PRE3B2",
-      "title": "Pre-Phase 3 — Serious",
+      "id": "5",
+      "title": "Serious",
       "tag": "Serious 💪",
       "message": "Let's be serious , t7eb ta3mel flous min 7aja bech tebni beha nosta9eblek w ma tnajjemech tal9alha wa9et there is no way that happened everything is up to you"
     },
     {
-      "id": "PRE3C",
-      "title": "Pre-Phase 3 — Packages Intro",
+      "id": "6",
+      "title": "Packages Intro",
       "tag": "Packages 📦",
       "message": "that perfect enti 3andek fekra 3ala les packages elli 3anna ?"
     },
     {
-      "id": "PRE3D",
-      "title": "Pre-Phase 3 — Plans Overview",
+      "id": "7",
+      "title": "Plans Overview",
       "tag": "Plans 📋",
       "message": "3anna 3 plans selon chnia les objective mte3ek w win t7eb toussal. 🥉 El Beginner Package y3tik access lel cours complet de A à Z pendant 1 mois m3a Discord VIP lifetime .🥈 El Top G Package fih nafs el Beginner Package pendant 3 mois w zid 3lih Live Signals kol youm bch tal9a positions directement mn el experts 👑 W el Ultimate Package houa el top — fih kol chay pendant 6 mois w fou9 heda TTG Free Book w Private 1-on-1 Session ma3 Zendyeni 🏆 directement W bien sure el Discord lifetime mawjoud fi plans el kol — ya3ni el support dima moujoud 7atta ki tkammel el cours. Aswenhom bin el 499dt 7ata l1099dt 9adech tnajjem twaffer enti lil formation bech najjem nans7ek enehou 5irlek ?"
     },
     {
-      "id": "PRE3D2",
-      "title": "Pre-Phase 3 — Course Details",
+      "id": "8",
+      "title": "Course Details",
       "tag": "Course Details 📚",
       "message": "Houma el packages el kol bech te5ou fehom access lnafes el course 📚 El cours mte3na mawjoud 3la plateforme mte3na \"tunisiantopgs.com\"  akther mn 78 vidéo, 155 quiz, PDFs w notes 3la kol partie, w el kol mfassar bel tounsi bech ma yib9ach 3andek 7aja moch mfahma. w en cas our ma fhemtech 7aja tkalemna direct\nW elli yefre9 binthom houa duree mta3 el access w other feature kima el kteb w live sessions …."
     },
     {
-      "id": "PRE3E",
-      "title": "Pre-Phase 3 — Suggestion",
+      "id": "9",
+      "title": "Suggestion",
       "tag": "Suggestion 💡",
       "isSuggestionVariants": true
     },
     {
-      "id": "3",
-      "title": "Phase 3 — El Pitch",
+      "id": "10",
+      "title": "El Pitch",
       "tag": "Pitch 🔥",
       "isVariants": true
     },
     {
-      "id": "4.1",
-      "title": "Phase 4.1 — El Course",
+      "id": "11",
+      "title": "El Course",
       "tag": "Course 📚",
       "hasOptions": true,
       "base": "📚 El cours mte3na mawjoud 3la plateforme mte3na \"tunisiantopgs.com\"  akther mn 78 vidéo, 155 quiz, PDFs w notes 3la kol partie, w el kol mfassar bel tounsi bech ma yib9ach 3andek 7aja moch mfahma. w en cas our ma fhemtech 7aja tkalemna direct",
@@ -72,20 +72,20 @@
       "option2": "\n\nchnia rayek ? investissement walla le ?"
     },
     {
-      "id": "4.2",
-      "title": "Phase 4.2 — El Discord",
+      "id": "12",
+      "title": "El Discord",
       "tag": "Discord 🎮",
       "message": "el students elli 5dhew el cours mte3na, akther menhouma ma kenech 3andhom aya base fil trading 9bal. Ba3d chhar wa7ed bdew ychoufu résultats réelles. El Discord houa elli far9 mech bch tal9a videos barka, bch tal9a nass active kol youm, signals, w tal9a Chkoun yjewbek 3ala el asela elli 3andek fi ay wa9et. w fou9 heda el discord bech yab9alek life time .chnia rayek ? investissement walla le ? 🎯"
     },
     {
-      "id": "5",
-      "title": "Phase 5 — El Payment",
+      "id": "13",
+      "title": "El Payment",
       "tag": "Payment 💳",
       "message": "💳 les méthodes de paiement el kol disponibles: virement bancaire, D17, Crypto , Poste . chnia yse3dek ?"
     },
     {
-      "id": "6",
-      "title": "Phase 6 — El Access",
+      "id": "14",
+      "title": "El Access",
       "tag": "Access ✅",
       "hasSuffix": true,
       "base": "ba3d ma tikhalas ab3ethli el recu mta3 el paiment w ena na3tik el access lil discord w el course w Tnajem tebda 7atta min el youm",
@@ -93,14 +93,14 @@
       "ending": " ✅"
     },
     {
-      "id": "7",
-      "title": "Phase 7 — El Close",
+      "id": "15",
+      "title": "El Close",
       "tag": "Close ⏳",
       "message": "Mar7be bik , one last point el promo tnajjem toufa fi ay wa9et mo7doud b nombre de places, w ett Ken t7eb tzid te5ou feedbacks mta3 el 3bed wala les autres plans mawjoudin tal9a kol chay 3la site mte3na: tunisiantopgs.com w mar7be bik fi ay wa9et ⏳"
     },
     {
-      "id": "8",
-      "title": "Phase 8 — Account Activation",
+      "id": "16",
+      "title": "Account Activation",
       "tag": "Activation ✅",
       "message": "your account is fully activated , and we did give you 2 more courses graphic design and video editing as a gift 🎁"
     }

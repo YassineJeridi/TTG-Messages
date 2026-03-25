@@ -61,13 +61,13 @@ function buildFlowWithPhase3() {
       card.id = `flow-card-${i}`;
       card.innerHTML = `
         <div class="card-header">
-          <span class="phase-num num-flow">PHASE 3</span>
-          <span class="phase-title">Phase 3 — El Pitch</span>
-          <span class="tag-badge">Pitch 🔥</span>
+          <span class="phase-num num-flow">Phase ${item.id}</span>
+          <span class="phase-title">${item.title}</span>
+          <span class="tag-badge">${item.tag || ""}</span>
           <span class="copy-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Choose Plan</span></span>
         </div>
         <div class="card-body">
-          <p class="message-text" style="color:var(--text-m);font-style:italic;">Click to select a plan and copy 👇</p>
+          <p class="message-text">${esc(D.phase3variants[0].message)}</p>
           <div class="chips-row">
             ${D.phase3variants.map((v) => `<span class="chip chip-purple">${v.label} — ${v.tag}</span>`).join("")}
           </div>
@@ -80,13 +80,13 @@ function buildFlowWithPhase3() {
       card.id = `flow-card-${i}`;
       card.innerHTML = `
         <div class="card-header">
-          <span class="phase-num num-pre">${item.id}</span>
+          <span class="phase-num num-flow">${item.id}</span>
           <span class="phase-title">${item.title}</span>
           <span class="tag-badge">${item.tag || ""}</span>
           <span class="copy-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Choose Version</span></span>
         </div>
         <div class="card-body">
-          <p class="message-text" style="color:var(--text-m);font-style:italic;">Click to select a version and copy 👇</p>
+          <p class="message-text">${esc(D.pre3bVariants[0].message)}</p>
           <div class="chips-row">
             ${D.pre3bVariants.map((v) => `<span class="chip chip-purple">${v.label}</span>`).join("")}
           </div>
@@ -97,19 +97,14 @@ function buildFlowWithPhase3() {
       const card = document.createElement("div");
       card.className = "phase-card card-flow";
       card.id = `flow-card-${i}`;
-      const numClass =
-        item.id && item.id.toString().startsWith("PRE")
-          ? "num-pre"
-          : "num-flow";
       card.innerHTML = `
         <div class="card-header">
-          <span class="phase-num ${numClass}">${item.id}</span>
+          <span class="phase-num num-flow">Phase ${item.id}</span>
           <span class="phase-title">${item.title}</span>
           <span class="tag-badge">${item.tag || ""}</span>
           <span class="copy-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Choose Plan</span></span>
         </div>
         <div class="card-body">
-          <p class="message-text" style="color:var(--text-m);font-style:italic;">Click to select a suggestion and copy 👇</p>
           <div class="chips-row">
             ${D.suggestionVariants.map((v) => `<span class="chip chip-purple">${v.label} — ${v.tag}</span>`).join("")}
           </div>
@@ -135,8 +130,8 @@ function mkCard(item, idx, section) {
   const card = document.createElement("div");
   card.className = `phase-card card-${section}`;
   card.id = `${section}-card-${idx}`;
-  const numClass = `num-${section === "flow" ? (item.id && item.id.toString().startsWith("PRE") ? "pre" : "flow") : section}`;
-  const label = section === "flow" ? `PHASE ${item.id}` : item.id;
+  const numClass = `num-${section === "flow" ? "flow" : section}`;
+  const label = section === "flow" ? `Phase ${item.id}` : item.id;
   const displayMsg = item.hasOptions
     ? item.base
     : item.hasPrefix
@@ -145,7 +140,11 @@ function mkCard(item, idx, section) {
         ? item.base + item.ending
         : item.isStripe
           ? "Click to select plan and copy 👇"
-          : item.message || "Click to configure and copy 👇";
+          : item.hasPrice
+            ? item.base_before + item.prices[0] + item.base_after
+            : item.hasToggleX || item.hasChooseY
+              ? item.base + (item.ending || "")
+              : item.message || "Click to configure and copy 👇";
   const hint = item.hasOptions
     ? "Choose & Copy"
     : item.hasPrefix
