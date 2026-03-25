@@ -74,6 +74,25 @@ function buildFlowWithPhase3() {
         </div>`;
       card.addEventListener("click", () => openPhase3Modal(i));
       c.appendChild(card);
+    } else if (item.isPre3bVariants) {
+      const card = document.createElement("div");
+      card.className = "phase-card card-flow";
+      card.id = `flow-card-${i}`;
+      card.innerHTML = `
+        <div class="card-header">
+          <span class="phase-num num-pre">${item.id}</span>
+          <span class="phase-title">${item.title}</span>
+          <span class="tag-badge">${item.tag || ""}</span>
+          <span class="copy-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Choose Version</span></span>
+        </div>
+        <div class="card-body">
+          <p class="message-text" style="color:var(--text-m);font-style:italic;">Click to select a version and copy 👇</p>
+          <div class="chips-row">
+            ${D.pre3bVariants.map((v) => `<span class="chip chip-purple">${v.label}</span>`).join("")}
+          </div>
+        </div>`;
+      card.addEventListener("click", () => openPre3bModal(i));
+      c.appendChild(card);
     } else if (item.isSuggestionVariants) {
       const card = document.createElement("div");
       card.className = "phase-card card-flow";
@@ -224,6 +243,29 @@ function openPhase3Modal(phaseIdx) {
     wrap.appendChild(b);
   });
   openM("phase3-modal");
+}
+
+function openPre3bModal(phaseIdx) {
+  const wrap = document.getElementById("pre3b-opts");
+  wrap.innerHTML = "";
+  D.pre3bVariants.forEach((v) => {
+    const b = document.createElement("button");
+    b.className = "opt-btn";
+    b.innerHTML = `<span class="opt-label-s">${v.tag}</span><span class="opt-txt">${v.label}</span>`;
+    b.onclick = () => {
+      wrap
+        .querySelectorAll(".opt-btn")
+        .forEach((x) => x.classList.remove("selected"));
+      b.classList.add("selected");
+      document.getElementById("pre3b-preview").textContent = v.message;
+      document.getElementById("pre3b-copy-btn").onclick = () => {
+        closeAll();
+        copy(v.message, `flow-card-${phaseIdx}`, phaseIdx);
+      };
+    };
+    wrap.appendChild(b);
+  });
+  openM("pre3b-modal");
 }
 
 function openSuggestionModal(phaseIdx) {
