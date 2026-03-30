@@ -159,6 +159,18 @@
       "title": "Post-Subscription Gift 🎁",
       "tag": "Gift 🎁",
       "message": "your account is fully activated , and we did give you 2 more courses graphic design and video editing as a gift 🎁"
+    },
+    {
+      "id": "QA4",
+      "title": "Greeting",
+      "tag": "Greeting 👋",
+      "message": "Aslema , Kifech najjmou naaawnouk ?"
+    },
+    {
+      "id": "QA5",
+      "title": "Promo Prices",
+      "tag": "Promo 🔥",
+      "message": "Tawa houma f el promo \n🥉 El Beginner Package ken 700 dt wala b 499DT. \n🥈 El Top G Package ken b 800 dt walla b 699DT. \n👑 W el Ultimate Package houa el top — fih kol chay pendant 6 mois ken b 2990 walla b 1099DT.\n\nSo enehou elli yse3dek akther ?"
     }
   ],
   "infoMessages": [
@@ -253,6 +265,12 @@
       "title": "Objection — Is It Free?",
       "tag": "Free ❓",
       "message": "el free ynajjem ykoun mawjoud fi ay blassa. A7na na3tiw exclusive courses w features elli mch bech tal9ahom fi 7atta paid courses."
+    },
+    {
+      "id": "OBJ4",
+      "title": "Objection — Budget",
+      "tag": "Budget 💸",
+      "message": "ken bech teselni enehou el 5ir Ena dima n9ollek el ultimate hua a7sen we7ed fi el private session elli bech y3awnouk barcha w fih el book mta3 TTG elli bech yfasserlek zeda barcha fazet ama dima nab9aw ma7sourin b budget so what do you see ?"
     }
   ],
   "resubscription": [
@@ -272,7 +290,7 @@
     {
       "label": "Option B — for sure",
       "tag": "for sure",
-      "message": "for sure heda el kol tnajjem ta3emlou w famma 93adwa wa7da bech tet3alem trading houa tarkiz w wa9et 9olli trah wa9tek kifech ? tnajjem t5asses wa9et bech tet3allem 3ala 9a3da w tefehem el marché walla just ki tal9a wa9et ?"
+      "message": "for sure heda el kol tnajjem tet3allmou w famma 9a3d wa7da bech tet3alem trading houa tarkiz w wa9et 9olli trah wa9tek kifech ? tnajjem t5asses wa9et bech tet3allem 3ala 9a3da w tefehem el marché walla just ki tal9a wa9et ?"
     }
   ],
   "suggestionVariants": [
